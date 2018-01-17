@@ -11,3 +11,21 @@ for(int i=0;i<5;i++)
   return 0;
 
 }
+
+
+
+
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+int main(){
+int b[]={1,2,3,4,5};
+int*a[]={&b[0],&b[1],&b[2],&b[3],&b[4]};
+int**p=a;
+for(int i=0;i<5;i++)
+   
+ printf("%d",**p++);
+   system("pause");
+  return 0;
+
+}
